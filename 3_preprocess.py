@@ -40,6 +40,4 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    os.makedirs(f'{args.output}', exist_ok=True)
-
     main(args)
